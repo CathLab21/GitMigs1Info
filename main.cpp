@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    Pile P(17);
+    Pile P(19);
     int i=0;
     while (! P.Full()){P. Push(rand()%100);}
     while(!P.Empty()) cout << P.Pop()<< endl;
